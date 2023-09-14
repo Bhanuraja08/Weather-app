@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+   
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="container">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Search a location"
+            id="city"
+            list="cities"
+            value=""
+          />
+          <datalist id="cities">
+            <option value="mumbai">
+            <option value="delhi">
+            <option value="Bangalore">
+            <option value="kolkata">
+            <option value="Chennai">
+            <option value="Ahmedabad">
+            <option value="Hyderbad">
+            <option value="pune">
+            <option value="surat">
+            <option value="Kanput">
+            <option value="jaipur">
+            <option value="lunknow">
+            <option value="tirupati">
+            <option value="vizag">
+            <option value="visakhapatnam">
+            <option value="vijaywada">
+            <option value="kurnool">
+            <option value="kakinada">
+            <option value="anantapur">
+            <option value="srisailam">
+            <option value="vizinagaram">
+            <option value="agra">   
+              <option value="italy">
+                <option value="devarapalli">
+                <option value="anakapalle">
+                <option value="london">
+                <option value="srikakulam">
+                <option value="rajam">
+                <option value="pendurthi">
+                <option value="kothavalasa">
+                <option value="kancharapalem">
+                <option value="NAD">
+                <option value="resapuvanipalem">
+                <option value="england">
+                <option value="canada">
+                <option value="goa">
+                  <option value="aruku">
+                    <option value="s-kota">
+                    <option value="urvasi">
+                    <option value="America">
+                    <option value="chandigarh">
+                    <option value="gujrat">
+                    <option value="punjab">
+                    <option value="simhachalam">
+                    <option value="rk-beach">
+                    <option value="arunachal pradesh">
+                    <option value="parvathipuram">
+                    <option value="paderu">
+                    <option value="odisha">
+                    <option value="maddilapalem">                                 
+          </datalist>
+          <button id="search-btn">Find</button>
+        </div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="weather.js"></script>
+  </body>
+</html>
